@@ -31,10 +31,6 @@ function SideVertical(props) {
       numberPage = "05";
       titlePage = "Contact";
       break;
-    // case "/login":
-    //   numberPage = "06";
-    //   titlePage = "Login";
-    //   break;
     default:
   }
 
@@ -43,12 +39,9 @@ function SideVertical(props) {
     case "/":
       directUp = "/contact";
       break;
-    // case "/":
-    //   directUp = "/login";
-    //   break;
-    // case "/about":
-    //   directUp = "/";
-    //   break;
+    case "/about":
+      directUp = "/";
+      break;
     case "/skills":
       directUp = "/about";
       break;
@@ -76,9 +69,6 @@ function SideVertical(props) {
       directDown = "/contact";
       break;
     case "/contact":
-      directDown = "/login";
-      break;
-      case "/login":
       directDown = "/";
       break;
     default:

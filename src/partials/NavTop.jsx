@@ -41,9 +41,6 @@ function NavTop() {
               <NavLink to="/contact" onClick={toogleClose}>
                 Contact
               </NavLink>
-              <Link to="/login" onClick={toogleClose}>
-                Login
-              </Link>
             </div>
           </Container>
         </div>

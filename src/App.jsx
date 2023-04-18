@@ -9,7 +9,6 @@ import About from "./components/About";
 import NavTop from "./partials/NavTop";
 import NavBot from "./partials/NavBot";
 import Footer from "./partials/Footer";
-import Login from "./components/Login";
 import Home from "./components/Home";
 import "./App.css";
 
@@ -45,7 +44,6 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
-          <Route path="/login" element={<Login />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </div>

@@ -30,10 +30,6 @@ function NavBot() {
       numberPage = "05";
       titlePage = "Contact";
       break;
-    case "/login":
-      numberPage = "06";
-      titlePage = "Login";
-      break;
     default:
   }
 
