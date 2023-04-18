@@ -101,14 +101,6 @@ function NavTop() {
                 Contact
               </NavLink>
             </Nav.Link>
-            <Nav.Link>
-              <NavLink
-                to="/login"
-                className={({ isActive }) => (isActive ? "active" : "")}
-              >
-                Login
-              </NavLink>
-            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
